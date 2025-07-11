@@ -1,0 +1,13 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "main": "dist/src/logger.js",
+  "types": "dist/src/logger.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node dist/test/demo.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+} 
